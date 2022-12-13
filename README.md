@@ -1,7 +1,6 @@
 # JS-Interactive-Game
 JavaScriptGame
 
-# JavaScriptGame
 
 You will need to create a fun interactive game using JS.
 
