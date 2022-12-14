@@ -1,2 +1,0 @@
-//implement the Monster class
-

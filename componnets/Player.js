@@ -1,5 +1,5 @@
 
-class Player {
+export class Player {
     constructor(name) {
         this.hp = 100;
         this.name = name;
