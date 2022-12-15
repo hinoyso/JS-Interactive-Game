@@ -9,6 +9,7 @@
         this.monsters = [];
         this.items = [];
         this.generateBoard();
+
         console.log("check board ctor")
     }
 

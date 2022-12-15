@@ -7,11 +7,16 @@
         this.inventory = [];
         this.x = 0;
         this.y = 0;
+
+        console.log("check player ctor")
+
     }
 
 
     getHealth() {
-        return `${this.name}'s health is now ${this.health}!`;
+        console.log(`${this.name}'s health is now ${this.hp}!`)
+
+        return `${this.name}'s health is now ${this.hp}!`;
     }
 
     isAlive() {

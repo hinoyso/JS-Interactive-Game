@@ -1,7 +1,17 @@
 //create new board
 
 
-let board;
-board = new Board();
+const board = new Board();
+const player = new Player("Player1");
+
+board.addPlayer(player);
+player.getHealth();
+
+
+
+
+
+
+
 
 

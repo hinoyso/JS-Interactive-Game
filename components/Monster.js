@@ -1,4 +1,5 @@
- class Monster {
+
+class Monster {
 constructor(health, strength,x,y) {
     this.name = "Monster";
     this.health = health;
@@ -30,8 +31,6 @@ getCoordinates() {
 printStats() {
     console.log(`Name: ${this.name}\nHealth: ${this.hp}\nStrength: ${this.strength}`);
 }
-
-
 
 }
 
