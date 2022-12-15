@@ -1,5 +1,5 @@
 
-export class Board {
+ class Board {
     constructor() {
         this.board = [];
         this.boardSize = 25;
@@ -9,6 +9,7 @@ export class Board {
         this.monsters = [];
         this.items = [];
         this.generateBoard();
+        console.log("check board ctor")
     }
 
     generateBoard() {
@@ -110,4 +111,5 @@ export class Board {
 
 
 }
+
 

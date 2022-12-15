@@ -1,4 +1,4 @@
-export class Monster {
+ class Monster {
 constructor(health, strength,x,y) {
     this.name = "Monster";
     this.health = health;

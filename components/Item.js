@@ -1,5 +1,5 @@
 //item class
-export class Item {
+ class Item {
     constructor(name, x, y) {
         this.name = name;
         this.x = x;
